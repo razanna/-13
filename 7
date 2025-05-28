@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int i = 42;
+    float f = (float)i; // int -> float
+    printf("int %d -> float %.2f\n", i, f);
+
+    float f2 = 3.14f;
+    int i2 = (int)f2;   // float -> int (усечение)
+    printf("float %.2f -> int %d\n", f2, i2);
+
+    return 0;
+}
