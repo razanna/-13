@@ -1,0 +1,9 @@
+let i = 42;
+let f = Number(i);  // int -> float (в JS все числа — float)
+console.log(`int ${i} -> float ${f}`);
+
+let f2 = 3.14;
+let i2 = Math.floor(f2); // float -> int (округление вниз)
+console.log(`float ${f2} -> int ${i2}`);
+
+console.log(typeof i, typeof f, typeof f2, typeof i2);
